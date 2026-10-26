@@ -282,6 +282,7 @@
     min-height: 54px;
     padding: 16px 20px;
     border: 1px solid var(--contact-brown);
+    border-radius: 20px;
     color: #fff;
     background: var(--contact-brown);
     cursor: pointer;

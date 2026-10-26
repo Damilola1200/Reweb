@@ -28,23 +28,7 @@
     opacity: 0;
 }
 
-.loader-dots {
-    position: absolute;
-    top: calc(50% + 50px);
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 8px;
-    opacity: 0;
-}
 
-.loader-dots span {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #582308;
-    animation: dotPulse 1.2s ease-in-out infinite;
-}
 
 .loader-dots span:nth-child(2) {
     animation-delay: 0.15s;
@@ -55,26 +39,41 @@
 }
 
 .page-loader.intro .loader-logo {
-    animation: loaderUp 0.8s 0.1s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+    animation: loaderUp 0.8s 0.1s cubic-bezier(0.2, 0.7, 0.2, 1) forwards,
+        logoBounce 1s 0.9s infinite;
 }
 
 .page-loader.intro .loader-dots,
 .page-loader.leaving .loader-logo,
 .page-loader.leaving .loader-dots {
     opacity: 1;
+    animation: logoBounce 1s infinite;
 }
 
-@keyframes dotPulse {
-
-    0%,
-    100% {
-        opacity: 0.25;
-        transform: scale(0.8);
+@keyframes logoBounce {
+    0% {
+        transform: translateY(0) scale(1, 1);
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.4, 1);
     }
 
-    50% {
-        opacity: 1;
-        transform: scale(1.1);
+    /* rise: slows near the top */
+    45% {
+        transform: translateY(-30px) scale(1, 1);
+        animation-timing-function: cubic-bezier(0.55, 0, 1, 0.45);
+    }
+
+    /* fall: speeds up */
+    90% {
+        transform: translateY(0) scale(1, 1);
+    }
+
+    95% {
+        transform: translateY(0) scale(1.08, 0.92);
+    }
+
+    /* small squash on landing */
+    100% {
+        transform: translateY(0) scale(1, 1);
     }
 }
 

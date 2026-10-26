@@ -19,7 +19,7 @@
             year: "2026",
             type: "Residential Development",
 
-            video: "media/amore homes by citi hitec.mp4",
+            video: "https://res.cloudinary.com/agev009j/video/upload/v1792774512/amore_homes_by_citi_hitec.mp4",
 
             description:
                 "Contemporary residential development designed for modern living, combining thoughtful planning, refined architectural expression and functional spaces.",
@@ -40,7 +40,7 @@
             year: "2025",
             type: "Residential",
 
-            video: "media/ASO DRIVE CITI HI.mp4",
+            video: "https://res.cloudinary.com/agev009j/video/upload/v1792774632/ASO_DRIVE_CITI_HI.mp4",
 
             description:
                 "A contemporary residence combining clean architectural lines with functional living spaces and carefully considered proportions.",
@@ -60,7 +60,7 @@
             year: "2025",
             type: "Residential",
 
-            video: "media/maldives citi.mp4",
+            video: "https://res.cloudinary.com/agev009j/video/upload/v1792774757/maldives_citi.mp4",
 
             description:
                 "A refined residential project focused on proportion, natural light and comfortable modern living.",
@@ -72,15 +72,15 @@
             ]
         },
 
-        Amazon: {
-            title: "Amazon Residence",
-            category: "COMMERCIAL",
-            status: "ONGOING",
+        Bahamas: {
+            title: "Bahamas Island",
+            category: "RESIDENTIAL",
+            status: "COMPLETED",
             location: "Abuja, Nigeria",
             year: "2026",
             type: "Commercial Development",
 
-            video: "media/AMAZON CITI HITEC.mp4",
+            video: "https://res.cloudinary.com/agev009j/video/upload/v1792774600/BAHAMAS_CITI_HI.mp4",
 
             description:
                 "A contemporary development currently progressing through construction with a focus on efficient planning and modern architectural expression.",

@@ -6,7 +6,7 @@
     const isHome = body.classList.contains("home");
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const firstVisit = true;
-    const minTime = 1200;
+    const minTime = 2800;
 
     body.classList.add("anim");
     body.style.setProperty("--hero-delay", firstVisit ? "0.45s" : "0.25s");

@@ -33,7 +33,7 @@ body {
 
     background:
         linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-        #e8e4df url("../../media/amaz.png") center / cover no-repeat;
+        #e8e4df url("https://res.cloudinary.com/agev009j/image/upload/v1792775119/amaz.jpg") center / cover no-repeat;
 
     border-radius: 50px 0 0 50px;
 }

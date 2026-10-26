@@ -919,8 +919,8 @@ small {
     /* HERO */
 
     .hero {
-        min-height: 650px;
-        height: 100svh;
+        min-height: 250px;
+        height: 90svh;
 
         background-position: center;
     }

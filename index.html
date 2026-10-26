@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+
+
+<body>
+    <div class="page-loader" id="pageLoader">
+        <img src="media\official-logo-1-Copy (1).png" alt="" class="loader-logo">
+        <div class="loader-dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <div id="navbar-container"></div>
+
+    <!-- here is the hero section -->
+    <section class="hero" id="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="media\Untitled design (1).mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+
+            <h1> <b>
+                    Thoughtfully Designed.<br>
+                    Expertly Built.</b>
+            </h1>
+
+            <p class="hero-description">
+                We create exceptional spaces through thoughtful design,
+                quality construction, and lasting craftsmanship.
+            </p>
+
+            <a href="projects.html" class="hero-button">
+                <b>Explore Our Projects</b>
+            </a>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+    </section>
+
+    <section class="intro">
+        <div class="intro-label">
+            <span>WHO WE ARE</span>
+        </div>
+
+        <div class="intro-content">
+            <h2><b>
+                    We build spaces<br>
+                    <em>made to last.</b></em>
+            </h2>
+
+            <p>
+                We are a construction and development company focused on
+                creating exceptional spaces through thoughtful design,
+                quality materials, and expert execution.
+            </p>
+
+            <a href="about.html" class="text-link">Discover our story →</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <div class="section-header">
+            <div class="section-label">
+
+                <span>FEATURED PROJECTS</span>
+            </div>
+
+            <h2><b>Our work</b></h2>
+        </div>
+
+        <div class="projects-slider">
+
+            <div class="project-slide">
+                <img src="media\more.png" alt="Amore">
+
+                <div class="project-info">
+                    <h3>AMORE</h3>
+
+                    <div>
+                        <p>
+                            This modern, energy-efficient home features panoramic
+                            glazing, reinforced frame structure, and a ventilated
+                            façade, ensuring comfortable year-round living.
+                        </p>
+
+                        <a href="pages/projects.html">MORE DETAILS ↗</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-slide">
+                <img src="media\mal.jpg" alt="Maldives">
+
+                <div class="project-info">
+                    <h3>MALDIVES</h3>
+
+                    <div>
+                        <p>
+                            This compact house, with its simple architecture and
+                            deep, dark tones, creates a sense of privacy and
+                            tranquility.
+                        </p>
+
+                        <a href="pages/projects.html">MORE DETAILS ↗</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-slide">
+                <img src="media\aso.png" alt="Aso drive">
+
+                <div class="project-info">
+                    <h3>ASO DRIVE</h3>
+
+                    <div>
+                        <p>
+                            A thoughtfully designed residential development
+                            combining contemporary architecture with comfortable
+                            living spaces.
+                        </p>
+
+                        <a href="pages/projects.html">MORE DETAILS ↗</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-slide">
+                <img src="media\bahams.png" alt="Bahamas">
+
+                <div class="project-info">
+                    <h3>BAHAMAS</h3>
+
+                    <div>
+                        <p>
+                            A refined residential project focused on modern
+                            architecture, quality materials and functional spaces.
+                        </p>
+
+                        <a href="projects.html">MORE DETAILS ↗</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projects-controls">
+
+            <span class="projects-counter">
+                <span id="currentProject">1–2</span> / 4
+            </span>
+
+            <div class="project-arrows">
+                <button id="prevProject">←</button>
+                <button id="nextProject">→</button>
+            </div>
+
+        </div>
+
+        <div class="projects-progress">
+            <span id="projectProgress"></span>
+        </div>
+        <!-- FEATURED PROJECT SHOWCASE -->
+
+        <section class="showcase">
+
+            <div class="showcase-image">
+                <img src="media\amaz.png" alt="Featured construction project">
+            </div>
+
+            <div class="showcase-content">
+
+                <span class="showcase-label">FEATURED PROJECT</span>
+
+                <h2>Amazon</h2>
+
+                <p>
+                    A contemporary residential development designed
+                    around natural light, open spaces, and modern living.
+                </p>
+
+                <div class="showcase-details">
+                    <div>
+                        <span>Location</span>
+                        <strong>Abuja, Nigeria</strong>
+                    </div>
+
+                    <div>
+                        <span>Type</span>
+                        <strong>Residential</strong>
+                    </div>
+
+                    <div>
+                        <span>Status</span>
+                        <strong>Completed</strong>
+                    </div>
+                </div>
+
+                <a href="projects.html" class="showcase-link">
+                    View project →
+                </a>
+
+            </div>
+
+        </section>
+    </section>
+
+    <section class="services" id="services">
+
+        <div class="services-header">
+            <div class="section-label">
+                <span></span>
+                <span><b>WHAT WE DO</b></span>
+            </div>
+
+            <h2>Our services</h2>
+        </div>
+
+        <div class="services-list">
+
+            <div class="service">
+                <span class="service-number">01</span>
+
+                <div class="service-content">
+                    <h3>Architectural Design</h3>
+                    <p>
+                        Thoughtful architectural solutions that combine
+                        functionality, character, and lasting value.
+                    </p>
+                </div>
+
+                <span class="service-arrow">↗</span>
+            </div>
+
+            <div class="service">
+                <span class="service-number">02</span>
+
+                <div class="service-content">
+                    <h3>Building Construction</h3>
+                    <p>
+                        Complete construction from foundation to finishing,
+                        delivered with precision and attention to detail.
+                    </p>
+                </div>
+
+                <span class="service-arrow">↗</span>
+            </div>
+
+            <div class="service">
+                <span class="service-number">03</span>
+
+                <div class="service-content">
+                    <h3>Project Management</h3>
+                    <p>
+                        Professional project management that keeps quality,
+                        cost, and timelines under control.
+                    </p>
+                </div>
+
+                <span class="service-arrow">↗</span>
+            </div>
+
+            <div class="service">
+                <span class="service-number">04</span>
+
+                <div class="service-content">
+                    <h3>Road Construction</h3>
+                    <p>
+                        Reliable infrastructure solutions built for
+                        performance, durability, and long-term use.
+                    </p>
+                </div>
+
+                <span class="service-arrow">↗</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-label">
+            <span>ABOUT US</span>
+        </div>
+
+        <div class="about-content">
+            <h2>
+                Building with
+                <em>purpose.</em>
+            </h2>
+
+            <div class="about-text">
+                <p>
+                    We are a construction and development company
+                    committed to creating spaces that stand the test
+                    of time.
+                </p>
+
+                <p>
+                    From the first concept to the final detail, we
+                    bring together design, engineering, craftsmanship,
+                    and project management to deliver exceptional
+                    results.
+                </p>
+
+                <a href="about.html" class="text-link">More about us →</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section class="testimonials">
+
+        <div class="testimonials-header">
+
+            <div class="section-label">
+                <span>CLIENTS</span>
+            </div>
+
+            <h2>What our clients say.</h2>
+
+        </div>
+
+        <div class="testimonial">
+
+            <div class="quote-mark">“</div>
+
+            <blockquote>
+                Working with the team from concept to completion
+                was an exceptional experience. Their attention to
+                detail and commitment to quality exceeded our
+                expectations.
+            </blockquote>
+
+            <div class="client">
+                <strong>David Johnson</strong>
+                <span>Private Client · Lagos</span>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- CTA -->
+
+    <section class="cta" id="contact">
+
+        <div class="cta-content">
+
+            <span class="cta-label">START A PROJECT</span>
+
+            <h2>
+                Let's build<br>
+                something <em>great.</em>
+            </h2>
+
+            <a href="contact.html" class="cta-button">
+                <b> Get in touch </b>→
+            </a>
+
+        </div>
+
+    </section>
+    <!-- FOOTER -->
+    <div id="footer-container"></div>
+
+    <script src="JS/components.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/page.js"></script>
+</body>
+
+</html>
